@@ -1,0 +1,15 @@
+# pybind11 provides the Python/C++ binding layer for the native planning engine.
+pybind11>=2.13
+
+# numpy is used by test fixtures.
+numpy>=2.0
+
+# pytest runs simulator, market, planning, and packaging regressions.
+pytest>=8.0
+
+# kaggle-environments supplies the local Kaggriculture environment for tuning,
+# differential checks, and smoke tests.
+kaggle-environments>=1.32.0
+
+# optuna drives plan-prior and hyperparameter tuning.
+optuna>=3.6
