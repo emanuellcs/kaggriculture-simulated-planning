@@ -1,0 +1,40 @@
+{
+  "game": "kaggriculture",
+  "version": 1,
+  "champion": {
+    "target_cows": 0,
+    "target_sheep": 0,
+    "target_geese": 0,
+    "wheat_tiles": 24,
+    "carrot_tiles": 6,
+    "melon_tiles": 0,
+    "tomato_tiles": 0,
+    "strawberry_tiles": 0,
+    "buy_land_ne": 0,
+    "buy_land_sw": 0,
+    "buy_land_se": 0,
+    "max_hands_per_day": 6,
+    "shed_keep": 20,
+    "tranche_after_town": 1,
+    "wheat_feed_reserve": 0,
+    "deny_threshold": 1.0
+  },
+  "schema": {
+    "target_cows": { "type": "int", "min": 0, "max": 24, "default": 8, "group": "animals" },
+    "target_sheep": { "type": "int", "min": 0, "max": 24, "default": 6, "group": "animals" },
+    "target_geese": { "type": "int", "min": 0, "max": 24, "default": 0, "group": "animals" },
+    "wheat_tiles": { "type": "int", "min": 0, "max": 60, "default": 20, "group": "crops" },
+    "carrot_tiles": { "type": "int", "min": 0, "max": 40, "default": 4, "group": "crops" },
+    "melon_tiles": { "type": "int", "min": 0, "max": 40, "default": 4, "group": "crops" },
+    "tomato_tiles": { "type": "int", "min": 0, "max": 40, "default": 4, "group": "crops" },
+    "strawberry_tiles": { "type": "int", "min": 0, "max": 40, "default": 0, "group": "crops" },
+    "buy_land_ne": { "type": "int", "min": 0, "max": 1, "default": 1, "group": "land" },
+    "buy_land_sw": { "type": "int", "min": 0, "max": 1, "default": 1, "group": "land" },
+    "buy_land_se": { "type": "int", "min": 0, "max": 1, "default": 0, "group": "land" },
+    "max_hands_per_day": { "type": "int", "min": 0, "max": 20, "default": 12, "group": "labor" },
+    "shed_keep": { "type": "int", "min": 0, "max": 90, "default": 20, "group": "market" },
+    "tranche_after_town": { "type": "int", "min": 0, "max": 1, "default": 1, "group": "market" },
+    "wheat_feed_reserve": { "type": "int", "min": 0, "max": 100, "default": 30, "group": "market" },
+    "deny_threshold": { "type": "float", "min": 0.0, "max": 3.0, "default": 1.0, "group": "market" }
+  }
+}

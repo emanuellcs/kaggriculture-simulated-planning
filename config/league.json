@@ -1,0 +1,12 @@
+{
+  "opponents": [
+    { "name": "baseline", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Simple wheat-loop benchmark opponent." },
+    { "name": "starter", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Kaggle built-in starter policy." },
+    { "name": "random", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Kaggle built-in random policy." },
+    { "name": "wheat_loop", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Wheat bulk production archetype." },
+    { "name": "melon_rush", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Melon-timed production archetype." },
+    { "name": "animal_rush", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Animal-focused production archetype." },
+    { "name": "market_mirror", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Mirrors the champion route for adversarial market tests." },
+    { "name": "denier", "kind": "handcrafted", "params": {}, "rating": 1500.0, "note": "Deliberate price-floor denial archetype." }
+  ]
+}
